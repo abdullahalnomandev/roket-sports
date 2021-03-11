@@ -13,7 +13,7 @@ const TeamsDetails = () => {
         fetch(url)
             .then(response => response.json())
             .then(data => setTeamDerails(data.teams[0]))
-    }, [teamDetailsId])
+    }, [])
 
     return (
 
