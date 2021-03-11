@@ -37,7 +37,7 @@ const TeamDetailsInfo = (props) => {
 
                     <div className="col-md-6 genderImg">
                         {
-                            (strGender == "Male") ? <img src={maleImg} alt="" /> : <img src={femaleImg} alt="" />
+                            (strGender === "Male") ? <img src={maleImg} alt="" /> : <img src={femaleImg} alt="" />
                         }
                     </div>
 
