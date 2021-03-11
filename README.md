@@ -1,12 +1,21 @@
-# Getting Started with Create React App
+# Racket Sports
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with Create React App.
 
 ## Available Scripts
 
 In the project directory, you can run:
+Open # to view
 
-### `npm start`
+## About the project 
+
+In the projects has included many type of things. Specially in this projects has been included react router that you can see.Many things has been included those are as follows:
+
+* React Router
+* React Bootstrap
+* Font Awesome ( Specially social icon)
+
+<!-- ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -67,4 +76,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
