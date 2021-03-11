@@ -7,8 +7,8 @@ import { faClock, faFlag, faFutbol, faMars } from '@fortawesome/free-solid-svg-i
 import { faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const TeamDetailsInfo = (props) => {
-    console.log(props);
-    const { strTeamBadge, strTeam, strCountry, strGender, intFormedYear, strDescriptionEN, strStadiumDescription, strSport, strTeamBanner } = props.singleTeamDetails;
+
+    const { strTeamBadge, strTeam, strCountry, strGender, intFormedYear, strDescriptionEN, strStadiumDescription, strSport,       strTeamBanner, strTwitter, strFacebook, strYoutube } = props.singleTeamDetails;
 
     return (
 
@@ -18,13 +18,13 @@ const TeamDetailsInfo = (props) => {
                 <div className="picpute">
                     <img src={strTeamBanner} alt="" />
                 </div>
-                
+
                 <div className="image">
                     <img src={strTeamBadge} alt="" />
                 </div>
             </div>
 
-            
+
             <div className="container">
                 <div className="row teamDetails">
                     <div className="col-md-6">
@@ -50,11 +50,11 @@ const TeamDetailsInfo = (props) => {
 
 
                 <div className="social-Icon">
-                    <a className="twitter" title="Twitter" href="https://twitter.com" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
+                    <a className="twitter" title="Twitter" href={`https:/${strTwitter}`} target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
 
-                    <a className="facebook" title="Facebook" href="https://facebook.com" target="_blank"><FontAwesomeIcon icon={faFacebook} /></a>
+                    <a className="facebook" title="Facebook" href={`https:/${strFacebook}`} target="_blank"><FontAwesomeIcon icon={faFacebook} /></a>
 
-                    <a className="youTube" title="Youtube" href="https://youtube.com" target="_blank"><FontAwesomeIcon icon={faYoutube} /></a>
+                    <a className="youTube" title="Youtube" href={`https:/${strYoutube}`} target="_blank"><FontAwesomeIcon icon={faYoutube} /></a>
                 </div>
 
 

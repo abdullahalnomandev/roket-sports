@@ -6,6 +6,7 @@ import {
   Route,
 } from "react-router-dom";
 import TeamsDetails from './Component/TeamsDetails/TeamsDetails';
+import NotFound from './Component/NotFound/NotFound';
 
 
 const App = () => {
@@ -21,6 +22,10 @@ const App = () => {
 
           <Route exact path="/">
             <Team />
+          </Route>
+          
+          <Route path="*">
+            <NotFound />
           </Route>
 
         </Switch>
