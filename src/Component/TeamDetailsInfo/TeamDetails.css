@@ -1,0 +1,101 @@
+.img{
+    width: 100%;
+    text-align: center;
+}
+.img img {
+    width: 200px;
+    padding: 20px 0px;
+}
+.genderImg img{
+    width: 100%;
+    height: 90%;
+
+}
+.teamDetails{
+    background-color: #4b0e2b;
+    padding: 25px 20px 0px 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.teamDetails h1{
+    font-family: arial black;
+    color: white;
+}
+.teamDetails p{
+    font-family: arial;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.description p{
+    margin-top: 50px;
+    text-align: justify;
+    color: #000000;
+}
+.teamDetailsInfo{
+    background-color:#379ca0 ;
+} 
+.social-Icon img {
+    width: 60px;
+}
+.social-Icon{
+    text-align: center;
+    padding-bottom: 45px;
+    padding-top: 15px;
+}
+.social-Icon a {
+    margin-right: 30px;
+}
+.social-Icon a svg{
+    font-size: 35px;
+    background-color: white;
+    display: inline-block;
+    height: 50px !important;
+    width: 50px !important;
+    margin-right: 10px;
+    border-radius: 100%;
+    padding: 5px;
+}
+.social-Icon a svg:first-child{
+    background-color: white;
+}
+.twitter{
+    color: #1DA1F2;
+}
+.facebook{
+    color: #046EE5;
+}
+
+.youTube{
+color: #FF0201;;
+} 
+
+.youTube:hover{
+    color: #FF0201;
+}
+
+.image img{
+    width: 300px;
+}
+
+.image {
+    text-align: center;
+    position: absolute;
+    top: 8%;
+    left: 42%;
+    width: 16%;
+}
+
+.baner {
+    position: relative;
+}
+
+.baner img {
+    width: 100%;
+}
+
+.picpute{
+    opacity: .3;
+}

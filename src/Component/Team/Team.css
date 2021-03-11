@@ -1,0 +1,19 @@
+.single-team{
+    background-color: #379ca0;
+}
+
+.header{
+    background-image:url('https://i.pinimg.com/originals/e7/dc/8b/e7dc8bfea2bf838d967fb10f1908a1ae.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1400px;
+}
+
+.header h2{
+    text-align: center;
+    color: #f5ff5b;
+    font-family: arial black;
+    padding: 90px 90px 110px 90px;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
